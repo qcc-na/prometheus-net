@@ -324,7 +324,7 @@ public void Configure(IApplicationBuilder app, ...)
         // ...
 
         endpoints.MapMetrics();
-    };
+    });
 }
 ```
 
